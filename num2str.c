@@ -1,7 +1,12 @@
+/*
+ Created by: 		Ahmed Gad
+ Creation Date:	20SEP2018
+ Functionality: to convert from number to string
+ */
 #include "num2str.h"
 /********************************************************
 **function description: convert from floating number to string
-**input: pointer to string,floating number , length
+**input: pointer to string,floating number , length (number of characters to be printed)
 **output: none
 note: the length musn't exceede the sizeof(string)
 ***********************************************************/
