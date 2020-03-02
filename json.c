@@ -112,7 +112,7 @@ void jW_Num(uint8_t * key ,FP64 value,NUMBER_t IntegerOrFloat,uint8_t * JS,uint1
     JS[(*JS_idx)++]='\"';
     JS[(*JS_idx)++]=':';
     if(IntegerOrFloat==FLOAT)
-		ftos(num,value,5);
+		ftos(num,value,5);//5 number of characters +1
 	else if(IntegerOrFloat==INTEGER)
 		itos(num,value);
 	else
