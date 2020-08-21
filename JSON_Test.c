@@ -8,7 +8,7 @@ int main()
 
     unsigned char IntNum=227;
     float FloatNum=3.14;
-    char arr1[]="Ali,Gad,Henry";
+    char arr1[]="\"Ali\",\"Gad\",\"Henry\"";
     char arr2[]="0,1,2";
     char str[]="JSON String";
     char obj[]="{\"string\":\"Hello\",\"IntNum\":3}";
