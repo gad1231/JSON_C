@@ -4,6 +4,7 @@
  Functionality:  to format data in json format
 
  */
+#include <string.h>
 #include "json.h"
 /************************************************************************
 ** function name: jW_Start_obj
